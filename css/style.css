@@ -20,8 +20,6 @@ body {
 /******************************/
 
 .component {
-  position: relative;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
@@ -74,7 +72,8 @@ body {
   margin-top: 10px;
 }
 
-.component-img {
+.img-desktop {
+  height: 410px;
   background-image: url(../images/image-header-desktop.jpg);
   background-color: hsl(277, 64%, 61%);
   background-blend-mode: multiply;
